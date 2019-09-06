@@ -42,22 +42,23 @@ p {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 1024px;
+    width: 1024px;
 
 }
 
 .container {
-    max-width: 960px;
+    width: 960px;
     height: 800px;
     margin: 0 auto;
     background: #ffffff;
-    padding: 30px;
+    padding: 20px;
     border: 2px solid #dddddd;
 }
 
 .color {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
+    margin: 0;
 }
 
 .left {
