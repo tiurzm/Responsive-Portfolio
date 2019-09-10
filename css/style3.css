@@ -51,7 +51,7 @@ p {
 }
 
 .container {
-    width: 960px;
+    max-width: 960px;
     height: 650px;
     margin: 0 auto;
     background: #ffffff;
@@ -169,6 +169,7 @@ p {
     }
     .container {
         width: 80%;
+        height: 980px;
     }
     .wrapper {
         padding: 0;
