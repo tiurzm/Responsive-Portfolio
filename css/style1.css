@@ -8,16 +8,11 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url(../images/concrete_seamless.png);
     line-height: 180%;
+    position: relative;
 }
 
-ul {
-    list-style-type: none;
-    padding: 20px;
-    margin: 0;
-}
-
-ul li {
-    display: inline-block;
+a {
+    text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -38,18 +33,20 @@ img {
 .navbar {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background: #ffffff;
-    box-sizing: border-box; 
-    margin-bottom: 30px;
     border-bottom: 2px solid #dddddd;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .container {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 100px auto;
     background: #ffffff;
-    padding: 20px 20px 50px 20px;
+    padding: 20px 20px 45px 20px;
     border: 2px solid #dddddd;
-    
 }
 
 .color {
@@ -66,20 +63,33 @@ img {
 .right {
     float: right;
     color: #dddddd;
+    padding: 20px;
 }
 
 .clear {
     clear: both;
 }
 
+.footer {
+    background: #666666; 
+    padding: 5px 0;
+    color: #ffffff;
+    text-align: center;
+    border-top: 8px solid #4aaaa5; 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 @media screen and (max-width: 980px){
     .container {
         width: 70%;
-        margin: 35px;
+        margin-left: 35px;
     }
     .wrapper {
-        width: 97%;
-        padding-left: 25px;
+        width: 93%;
     }
 }
 
@@ -101,8 +111,10 @@ img {
     }
     .container {
         width: 80%;
+        margin-top: 165px;
     }
     .wrapper {
         padding: 0;
+        width: 100%;
     }
 }
