@@ -49,9 +49,12 @@ button {
 
 .container {
     max-width: 960px;
+    width: 100%;
+    overflow: auto;
+    height: auto;
     margin: 100px auto;
     background: #ffffff;
-    padding: 20px 20px 45px 20px;
+    padding: 20px;
     border: 2px solid #dddddd;
 }
 
@@ -100,18 +103,18 @@ button {
 
 @media screen and (max-width: 980px){
     .container {
-        width: 70%;
-        margin-left: 35px;
+        width: 75%;
+        margin-left: 0;
     }
     .wrapper {
-        width: 93%;
+        width: 100%;
     }
     
 }
 
 @media screen and (max-width: 768px){
     .container {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -126,7 +129,7 @@ button {
         text-align: center;
     }
     .container {
-        width: 80%;
+        width: 100%;
         margin-top: 165px;
     }
     .wrapper {
