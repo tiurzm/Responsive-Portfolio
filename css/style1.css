@@ -63,6 +63,7 @@ button {
     background: #ffffff;
     padding: 20px;
     border: 2px solid #dddddd;
+    text-align: justify;
 }
 
 .color {

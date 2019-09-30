@@ -86,6 +86,7 @@ a {
     float: left;
     width: 250px;
     margin: 15px 60px 20px 0;
+    border: 2px solid red;
 }
 
 .module img {
